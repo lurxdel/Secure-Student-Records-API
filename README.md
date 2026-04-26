@@ -8,6 +8,17 @@ This project is a **Secure Web-based API** built using the Django REST Framework
 - **Custom App Authorizations:** Deploys a custom `IsAdminOrFaculty` permission class mapped natively within the API view securing endpoints so only elevated users can edit or remove models.
 - **Dynamic Data Visualization:** Dynamically limits students globally to only retrieve entries explicitly owned by their accounts.
 
+## Lab 1 - Postman Screenshots
+> - **JWT Authentication (ADMIN)**
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/f9eca112-62ed-4663-b555-8ce1c44750af" />
+
+> - **Sucessful Access (ADMIN)**
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/961c630b-5392-4782-bb04-af1dee4637d6" />
+
+> - **Denied Access (STUDENT)**
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/87500933-11ee-4ac1-a8fb-8c3a2596391f" />
+
+
 ## Guide To Run
 To run the system locally, do the following.
 > - **Clone this repository** or download it as a **ZIP file.**
